@@ -144,13 +144,7 @@ if __name__ == '__main__': #the entry point to the program
                 city_name = city_name.replace('%20','')
                 speak('Temperature in'+city_name+ 'is'+ str(current_temperature)+ 'degrees celsius')
                 
-            
-            
-            
-        
-            
-            
-            
+             
         
         elif   'play music' in query:
             speak('Playing your fire  Music playlist')
